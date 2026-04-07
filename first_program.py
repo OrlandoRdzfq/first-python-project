@@ -1,18 +1,10 @@
-# first_project.py
-# This is my first Phyton mini project 
-# It prints my informations and practices loop
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
 
-name = "Orlando"
-age = 24 
+print(f"hello {name}, you are {age} years old.")
 
-# Print basic information 
-print ("Hello, my name is", name)
-print ("I am", age, "years old")
-print ( "I am learning programming")
-
-# Repeat a message 3 times using loop
-for i in range(3) :
-        print( "I am practicing Python and English")
-
-
+if age >= 18:
+    print ("You are an adult")
+else :
+    print("You are young")
 
